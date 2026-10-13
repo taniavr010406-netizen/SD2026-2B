@@ -5,7 +5,7 @@ def ciclo():
     print("Iniciando ciclo infinito...")
     while True:
         try:
-        print(f"{cnt}: Ejecutando...")
+            print(f"{cnt}: Ejecutando...")
             cnt += 1
             time.sleep(1)
         except KeyboardInterrupt:
